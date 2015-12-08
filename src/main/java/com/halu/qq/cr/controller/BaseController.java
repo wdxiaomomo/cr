@@ -18,8 +18,11 @@ public class BaseController {
 	protected static String ctx;
 	
 	@RequestMapping("/")
-	public Map<String, String> test(Map<String, String> model, HttpServletRequest request){
-		return model;
+	public String test(Map<String, String> model, HttpServletRequest request){
+		if(ctx == null){
+			setCtx(request);
+		}
+		return "test";
 	}
 	
 	public static void setCtx(HttpServletRequest request) {
