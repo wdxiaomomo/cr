@@ -25,7 +25,7 @@ public class BaseController {
 		return "test";
 	}
 	
-	public static void setCtx(HttpServletRequest request) {
+	public void setCtx(HttpServletRequest request) {
 		ctx = request.getContextPath();
 	}
 }

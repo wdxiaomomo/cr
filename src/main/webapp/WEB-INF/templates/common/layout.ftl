@@ -22,8 +22,8 @@
 	<#-- header -->
 	<header class="main-header">
 	  <a href="/" class="logo">
-			<span class="logo-mini">PCR</span>
-			<span class="logo-lg"><span>Pruducer Consumer Records</span></span>
+			<span class="logo-mini">CR</span>
+			<span class="logo-lg"><b>Personal</b>CR</span>
 	  </a>
 		<nav class="navbar navbar-static-top" role="navigation">
 			<a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">

@@ -16,7 +16,7 @@ public class SessionFactoryUtil {
 		return sessionFactory;
 	}
 
-	public static void setSessionFactory(SessionFactory sessionFactory) {
+	public void setSessionFactory(SessionFactory sessionFactory) {
 		SessionFactoryUtil.sessionFactory = sessionFactory;
 	}
 }
